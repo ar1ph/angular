@@ -1,0 +1,6 @@
+<p>dir-selector works!</p>
+<button (click)="openDirectory()">Select Directory</button>
+<h2>Selected Path: {{selectedPath}}</h2>
+<h3>Files:</h3>
+<p *ngFor="let file of files">{{file}}</p>
+
